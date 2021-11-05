@@ -2,7 +2,11 @@
  * Mammal
  */
 public class Mammal {
-    public int energy = 100;
+    protected int energy;
+
+    public Mammal(int energy){
+        this.energy = energy;
+    }
 
     public void displayEnergy(){
         System.out.println("Current energy: " + this.energy);
