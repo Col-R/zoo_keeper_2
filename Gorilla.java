@@ -1,4 +1,7 @@
 public class Gorilla extends Mammal{
+    public Gorilla(int energy){
+        super(energy);    
+    }
     public void throwThings(){
         energy = energy - 5;
         System.out.println("Throws some stuff. Current energy: "+ energy);
